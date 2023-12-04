@@ -1,0 +1,94 @@
+.zozo-body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  background-color: #fff; /* White background */
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.zozo-card {
+  width: 750px;
+  height: 100px;
+  display: flex;
+  flex-grow: 1;
+  justify-content: flex-end;
+  transform: rotate(-30deg);
+  position: relative;
+  z-index: 1;
+}
+
+.zozo-card__left {
+  background-color: rgb(235, 108, 182); /* Pink background */
+  width: 50%;
+  transform: rotate(-6deg) skew(-6deg, -6deg);
+  margin-right: -3px;
+  border: 1px solid #000; /* Black border */
+}
+
+.zozo-card__content {
+  height: calc(100% - 50px);
+  width: auto;
+  margin: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.zozo-card__content__icon {
+  display: flex;
+  height: 64px;
+  width: 64px;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.zozo-card__content div {
+  align-self: center;
+  margin-top: 8px;
+}
+
+.zozo-card__right {
+  background-color: rgb(231, 153, 199); 
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+  transform: rotate(6deg) skew(6deg, 6deg);
+  margin-left: -3px;
+  color: #000; /* Black text */
+  border: 1px solid #333; /* Darker black border */
+}
+
+.zozo-card::before {
+  content: '';
+  background-color: #000; /* Black background */
+  position: absolute;
+  bottom: 5px;
+  right: 210px;
+  height: 80px;
+  width: 80px;
+  transform: rotate(45deg) skew(-32deg, -32deg);
+  z-index: -1;
+  box-shadow: 90px 90px 15px 22.5px rgba(0, 0, 0, 0.8);
+}
+.zozo-contact__social {
+  display: flex;
+  margin-top: 20px;
+}
+
+.zozo-contact__social a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: #333;
+  display: flex;
+  align-items: center;
+}
+
+.zozo-contact__social i {
+  font-size: 24px;
+  margin-right: 5px;
+}
