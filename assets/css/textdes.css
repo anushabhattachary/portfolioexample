@@ -43,7 +43,7 @@ h3 {
     transform: translate(-30%, 0);
   }
   50% {
-    text-shadow: 0 25px 50px rgb(255, 132, 226);
+    text-shadow: 0 25px 50px rgb(97, 189, 255);
   }
   100% {
     transform: translate(30%, 0);

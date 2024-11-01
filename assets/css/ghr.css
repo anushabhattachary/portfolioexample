@@ -91,19 +91,19 @@
 }
 
 .foop-card1 {
-  background-image: url("../img/tech.jpeg");
+  background-image: url("../img/tech.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
 
 .foop-card2 {
-  background-image: url("../img/about.jpeg");
+  background-image: url("../img/skills.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
 
 .foop-card3 {
-  background-image: url("../img/re.jpeg");
+  background-image: url("../img/re.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -117,7 +117,7 @@
   width: 115%;
   top: 50%;
   display: block;
-  border: 5px solid #e01db6;
+  border: 5px solid rgb(97, 189, 255);
   border-radius: 50%;
   transition: transform 1s;
   transform: translateX(-50%) translateY(-50%) rotate(50deg);

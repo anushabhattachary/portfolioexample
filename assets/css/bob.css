@@ -21,7 +21,7 @@
 }
 
 .zozo-card__left {
-  background-color: rgb(235, 108, 182); /* Pink background */
+  background-color: rgb(97, 189, 255); /* Pink background */
   width: 50%;
   transform: rotate(-6deg) skew(-6deg, -6deg);
   margin-right: -3px;
@@ -52,7 +52,7 @@
 }
 
 .zozo-card__right {
-  background-color: rgb(231, 153, 199); 
+  background-color: rgb(97, 189, 255); 
   background-position: center bottom;
   background-repeat: no-repeat;
   background-size: cover;

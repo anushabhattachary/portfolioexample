@@ -1,4 +1,4 @@
-var aText = new Array('"Where Creativity Meets Code..."');
+var aText = new Array('"Turning ideas into impact, one line of code at a time."');
 var iSpeed = 200;
 var iIndex = 0;
 var iArrLength = aText[0].length;

@@ -9,7 +9,7 @@ $( document ).ready(function() {
 
     if (!($('.outer-nav').hasClass('is-vis'))) {
 
-      e.preventDefault();
+      e.preventDefault();creativity
 
       var delta = (e.originalEvent.wheelDelta) ? -e.originalEvent.wheelDelta : e.originalEvent.detail * 20;
 
